@@ -22,5 +22,5 @@ const abi = JSON.parse(fs.readFileSync("build/counter_sol_FirstContract.abi"));
     })
     .catch((err) => {
       console.error(err);
-    });
+    });   
 })();
